@@ -12,6 +12,7 @@ apt-get install -y \
     libbz2-dev \
     libmcrypt-dev \
     libcurl4-openssl-dev \
+    libssl-dev \
     libltdl-dev \
     libpng-dev \
     libreadline-dev
