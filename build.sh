@@ -14,7 +14,6 @@ apt-get install -y \
     libcurl4-openssl-dev \
     libltdl-dev \
     libpng-dev \
-    libpspell-dev \
     libreadline-dev
 
 mkdir /usr/local/php7
@@ -30,7 +29,6 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --enable-calendar \
                   --enable-exif \
                   --enable-dba \
-                  --enable-ftp \
                   --with-gettext \
                   --with-gd \
                   --enable-mbstring \
@@ -43,14 +41,11 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --with-pdo-mysql=mysqlnd \
                   --with-openssl \
                   --enable-pcntl \
-                  --with-pspell \
                   --enable-shmop \
-                  --enable-soap \
                   --enable-sockets \
                   --enable-sysvmsg \
                   --enable-sysvsem \
                   --enable-sysvshm \
-                  --enable-wddx \
                   --with-zlib \
                   --enable-zip \
                   --with-readline \
